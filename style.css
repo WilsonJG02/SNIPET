@@ -1,0 +1,103 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+</style>
+
+body {
+    text-align: center;
+    font-family: "Jomhuria", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-abo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-SOPORTE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-SOPORTE figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header {
+    height: 490px;
+    background: url(snipet.png) no-repeat center top;
+    background-size: cover;
+
+}
+
+.navbar{
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.content{
+    padding: 80px 0;
+
+}
+
+.content-abo {
+    background: #ff9000;
+    color: #fff;
+
+}
+
+.abo p{
+    max-width: 1055px;
+    margin: 0 auto;
+
+}
+
+.content-SOPORTE{
+    background: #3d3f;
+    color: #fff;
+}
